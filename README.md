@@ -7,3 +7,5 @@
     -because the route  starts with /api
         /api   ->   /v1   ->       /problems  ->   ping
         apirouter -> v1router -> problemRouter -> problemController ->service layer
+    /api   ->   /v1   ->       /problems  ->   ping
+    apirouter -> v1router -> problemRouter -> problemController ->service layer
