@@ -3,7 +3,7 @@ function pingProblemController(req,res){
         return res.json({message:'problem controller working fine'});
 }
 function addProblem(req,res){
-     return res.status(StatusCodes.NOT_IMPLEMENTED).json({message:'not implemented'});
+     return res.status(StatusCodes.NOT_IMPLEMENTED).json({message:'not implemented adding problems'});
 }
 function getProblem(req,res){
     return res.status(StatusCodes.NOT_IMPLEMENTED).json({message:'not implemented'});
