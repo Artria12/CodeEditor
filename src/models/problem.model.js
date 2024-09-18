@@ -17,11 +17,11 @@ const problemSchema=new mongoose.Schema({
             {
                 input:{
                      type:String,
-                     required:true
+                     required:[true,'input cannot be empty']
                 },
                 output:{
-                    typr:String,
-                    required:true
+                    type:String,
+                    required:[true,'output cannot be empty']
                 }
             }
         ]

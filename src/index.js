@@ -1,5 +1,6 @@
 const express=require('express');
 const app=express();
+const {Problem}=require('./models/index.js');
 const mongoose=require('mongoose');
 const {errorHandler}=require('./util/ErrorHandler.js');
 const {apirouter}=require('./route/index.js')
