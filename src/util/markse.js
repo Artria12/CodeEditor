@@ -6,7 +6,7 @@ function sanitizeMarkdown(markdownContent){
         const convertHtml=marked.parse(markdownContent);
         //sanitize html
         const sanitizedHtml=sanitizeHtml(convertHtml,{
-              allowedTags:sanitizeHtml.defaults.allowedTags
+              allowedTags:sanitizeHtml.defaults.allowedTags.concat('img')
         })
       
          var turn=new turndownService();
